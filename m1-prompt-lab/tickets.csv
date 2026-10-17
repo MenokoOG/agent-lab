@@ -1,0 +1,21 @@
+text,label
+"I was charged twice for my March subscription, please refund one.",billing
+"Can I get an invoice with our VAT number added?",billing
+"My card was declined but the money still left my bank account.",billing
+"Why did my plan jump from $19 to $29 this month?",billing
+"I cancelled last week and I'm still being billed.",billing
+"The export button spins forever and never downloads the CSV.",bug
+"App crashes on launch since the latest iOS update.",bug
+"Dashboard shows yesterday's numbers even after I refresh.",bug
+"Uploading a PNG over 5MB returns a 500 error.",bug
+"Dark mode makes the settings text unreadable.",bug
+"I can't log in and the reset email never arrives.",account
+"Please change the email on my account to my new work address.",account
+"I see logins from another country, I think someone got into my account.",account
+"How do I add a teammate to our workspace?",account
+"Two-factor codes keep saying invalid after I switched phones.",account
+"It would be great to have a Slack integration.",feature
+"Please add bulk delete for projects.",feature
+"Any plans for an Android home screen widget?",feature
+"Can you let us schedule reports to send every Monday?",feature
+"We need SSO through Okta before we can roll this out to the team.",feature
