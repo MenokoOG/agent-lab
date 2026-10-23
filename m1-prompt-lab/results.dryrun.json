@@ -1,0 +1,417 @@
+[
+  {
+    "variant": "zero_shot",
+    "model": "claude-sonnet-5-5",
+    "accuracy": 0.2,
+    "avg_input_tokens": 54.15,
+    "avg_latency_s": 0.010335384700010764,
+    "misses": [
+      {
+        "text": "I was charged twice for my March subscription, please refund one.",
+        "want": "billing",
+        "got": "bug"
+      },
+      {
+        "text": "Can I get an invoice with our VAT number added?",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "My card was declined but the money still left my bank account.",
+        "want": "billing",
+        "got": "feature"
+      },
+      {
+        "text": "Why did my plan jump from $19 to $29 this month?",
+        "want": "billing",
+        "got": "bug"
+      },
+      {
+        "text": "The export button spins forever and never downloads the CSV.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "App crashes on launch since the latest iOS update.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "Uploading a PNG over 5MB returns a 500 error.",
+        "want": "bug",
+        "got": "feature"
+      },
+      {
+        "text": "Dark mode makes the settings text unreadable.",
+        "want": "bug",
+        "got": "billing"
+      },
+      {
+        "text": "I can't log in and the reset email never arrives.",
+        "want": "account",
+        "got": "bug"
+      },
+      {
+        "text": "Please change the email on my account to my new work address.",
+        "want": "account",
+        "got": "feature"
+      },
+      {
+        "text": "I see logins from another country, I think someone got into my account.",
+        "want": "account",
+        "got": "bug"
+      },
+      {
+        "text": "Two-factor codes keep saying invalid after I switched phones.",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "Please add bulk delete for projects.",
+        "want": "feature",
+        "got": "account"
+      },
+      {
+        "text": "Any plans for an Android home screen widget?",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "Can you let us schedule reports to send every Monday?",
+        "want": "feature",
+        "got": "billing"
+      },
+      {
+        "text": "We need SSO through Okta before we can roll this out to the team.",
+        "want": "feature",
+        "got": "account"
+      }
+    ]
+  },
+  {
+    "variant": "single_shot",
+    "model": "claude-sonnet-5-5",
+    "accuracy": 0.3,
+    "avg_input_tokens": 122.0,
+    "avg_latency_s": 0.010397637900064182,
+    "misses": [
+      {
+        "text": "I was charged twice for my March subscription, please refund one.",
+        "want": "billing",
+        "got": "bug"
+      },
+      {
+        "text": "My card was declined but the money still left my bank account.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "Why did my plan jump from $19 to $29 this month?",
+        "want": "billing",
+        "got": "bug"
+      },
+      {
+        "text": "I cancelled last week and I'm still being billed.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "The export button spins forever and never downloads the CSV.",
+        "want": "bug",
+        "got": "billing"
+      },
+      {
+        "text": "App crashes on launch since the latest iOS update.",
+        "want": "bug",
+        "got": "feature"
+      },
+      {
+        "text": "Uploading a PNG over 5MB returns a 500 error.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "I see logins from another country, I think someone got into my account.",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "Two-factor codes keep saying invalid after I switched phones.",
+        "want": "account",
+        "got": "bug"
+      },
+      {
+        "text": "It would be great to have a Slack integration.",
+        "want": "feature",
+        "got": "billing"
+      },
+      {
+        "text": "Please add bulk delete for projects.",
+        "want": "feature",
+        "got": "account"
+      },
+      {
+        "text": "Any plans for an Android home screen widget?",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "Can you let us schedule reports to send every Monday?",
+        "want": "feature",
+        "got": "account"
+      },
+      {
+        "text": "We need SSO through Okta before we can roll this out to the team.",
+        "want": "feature",
+        "got": "bug"
+      }
+    ]
+  },
+  {
+    "variant": "few_shot",
+    "model": "claude-sonnet-5-5",
+    "accuracy": 0.3,
+    "avg_input_tokens": 89.15,
+    "avg_latency_s": 0.010364520099938091,
+    "misses": [
+      {
+        "text": "I was charged twice for my March subscription, please refund one.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "Can I get an invoice with our VAT number added?",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "Why did my plan jump from $19 to $29 this month?",
+        "want": "billing",
+        "got": "feature"
+      },
+      {
+        "text": "I cancelled last week and I'm still being billed.",
+        "want": "billing",
+        "got": "bug"
+      },
+      {
+        "text": "The export button spins forever and never downloads the CSV.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "App crashes on launch since the latest iOS update.",
+        "want": "bug",
+        "got": "feature"
+      },
+      {
+        "text": "Dashboard shows yesterday's numbers even after I refresh.",
+        "want": "bug",
+        "got": "feature"
+      },
+      {
+        "text": "Uploading a PNG over 5MB returns a 500 error.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "I can't log in and the reset email never arrives.",
+        "want": "account",
+        "got": "feature"
+      },
+      {
+        "text": "Please change the email on my account to my new work address.",
+        "want": "account",
+        "got": "feature"
+      },
+      {
+        "text": "How do I add a teammate to our workspace?",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "Two-factor codes keep saying invalid after I switched phones.",
+        "want": "account",
+        "got": "bug"
+      },
+      {
+        "text": "It would be great to have a Slack integration.",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "Can you let us schedule reports to send every Monday?",
+        "want": "feature",
+        "got": "bug"
+      }
+    ]
+  },
+  {
+    "variant": "few_shot_xml",
+    "model": "claude-sonnet-5-5",
+    "accuracy": 0.25,
+    "avg_input_tokens": 117.0,
+    "avg_latency_s": 0.010270728900013636,
+    "misses": [
+      {
+        "text": "I was charged twice for my March subscription, please refund one.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "Can I get an invoice with our VAT number added?",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "I cancelled last week and I'm still being billed.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "Dashboard shows yesterday's numbers even after I refresh.",
+        "want": "bug",
+        "got": "feature"
+      },
+      {
+        "text": "Uploading a PNG over 5MB returns a 500 error.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "Dark mode makes the settings text unreadable.",
+        "want": "bug",
+        "got": "billing"
+      },
+      {
+        "text": "I can't log in and the reset email never arrives.",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "Please change the email on my account to my new work address.",
+        "want": "account",
+        "got": "feature"
+      },
+      {
+        "text": "I see logins from another country, I think someone got into my account.",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "How do I add a teammate to our workspace?",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "Two-factor codes keep saying invalid after I switched phones.",
+        "want": "account",
+        "got": "feature"
+      },
+      {
+        "text": "Please add bulk delete for projects.",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "Any plans for an Android home screen widget?",
+        "want": "feature",
+        "got": "account"
+      },
+      {
+        "text": "Can you let us schedule reports to send every Monday?",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "We need SSO through Okta before we can roll this out to the team.",
+        "want": "feature",
+        "got": "billing"
+      }
+    ]
+  },
+  {
+    "variant": "seed_crystal",
+    "model": "claude-sonnet-5-5",
+    "accuracy": 0.25,
+    "avg_input_tokens": 16.0,
+    "avg_latency_s": 0.010305387800008248,
+    "misses": [
+      {
+        "text": "I was charged twice for my March subscription, please refund one.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "Can I get an invoice with our VAT number added?",
+        "want": "billing",
+        "got": "bug"
+      },
+      {
+        "text": "Why did my plan jump from $19 to $29 this month?",
+        "want": "billing",
+        "got": "feature"
+      },
+      {
+        "text": "I cancelled last week and I'm still being billed.",
+        "want": "billing",
+        "got": "account"
+      },
+      {
+        "text": "The export button spins forever and never downloads the CSV.",
+        "want": "bug",
+        "got": "account"
+      },
+      {
+        "text": "App crashes on launch since the latest iOS update.",
+        "want": "bug",
+        "got": "billing"
+      },
+      {
+        "text": "Uploading a PNG over 5MB returns a 500 error.",
+        "want": "bug",
+        "got": "feature"
+      },
+      {
+        "text": "Dark mode makes the settings text unreadable.",
+        "want": "bug",
+        "got": "billing"
+      },
+      {
+        "text": "I can't log in and the reset email never arrives.",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "I see logins from another country, I think someone got into my account.",
+        "want": "account",
+        "got": "feature"
+      },
+      {
+        "text": "How do I add a teammate to our workspace?",
+        "want": "account",
+        "got": "billing"
+      },
+      {
+        "text": "It would be great to have a Slack integration.",
+        "want": "feature",
+        "got": "billing"
+      },
+      {
+        "text": "Please add bulk delete for projects.",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "Any plans for an Android home screen widget?",
+        "want": "feature",
+        "got": "bug"
+      },
+      {
+        "text": "We need SSO through Okta before we can roll this out to the team.",
+        "want": "feature",
+        "got": "account"
+      }
+    ]
+  }
+]

@@ -1,5 +1,3 @@
-run.py
-
 """Run every prompt variant over tickets.csv and print one table.
 
     export ANTHROPIC_API_KEY=...
