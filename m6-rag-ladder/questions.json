@@ -1,0 +1,12 @@
+[
+  {"q": "How many vacation days do full-time employees get per year?", "must": ["\\b20\\b"], "kind": "text"},
+  {"q": "How many unused vacation days can carry over?", "must": ["\\b5\\b"], "kind": "text"},
+  {"q": "What is the minimum password length?", "must": ["\\b14\\b"], "kind": "text"},
+  {"q": "How much is the home-office stipend?", "must": ["400"], "kind": "text"},
+  {"q": "What is the total headcount across all locations?", "must": ["\\b120\\b"], "kind": "count"},
+  {"q": "Which location has the most people?", "must": ["Seattle"], "kind": "count"},
+  {"q": "How many locations have a headcount above 25?", "must": ["\\b3\\b|three"], "kind": "count"},
+  {"q": "Within how many hours must a lost device be reported?", "must": ["\\b2\\b|two"], "kind": "text"},
+  {"q": "How many paid holidays does the company observe?", "must": ["\\b11\\b|eleven"], "kind": "text"},
+  {"q": "How many days before the start date do laptops ship?", "must": ["\\b5\\b|five"], "kind": "text"}
+]

@@ -1,0 +1,4 @@
+strands-agents[anthropic]>=1.62,<2
+mcp>=1.30
+# Optional, only for agentcore_app.py:
+# bedrock-agentcore>=1.25

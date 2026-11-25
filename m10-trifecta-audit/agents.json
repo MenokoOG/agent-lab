@@ -1,0 +1,8 @@
+[
+  {"name": "book-analyst (m2)", "reads_private_data": false, "reads_untrusted_content": false, "can_send_externally": false},
+  {"name": "memory-kit support agent (m3)", "reads_private_data": true, "reads_untrusted_content": true, "can_send_externally": true},
+  {"name": "mini-flow triage (m5)", "reads_private_data": true, "reads_untrusted_content": true, "can_send_externally": false},
+  {"name": "tool-server over MCP (m4)", "reads_private_data": true, "reads_untrusted_content": false, "can_send_externally": false},
+  {"name": "agentkit support desk (capstone, send only after human approval)", "reads_private_data": true, "reads_untrusted_content": true, "can_send_externally": false},
+  {"name": "web research agent (example)", "reads_private_data": true, "reads_untrusted_content": true, "can_send_externally": true}
+]

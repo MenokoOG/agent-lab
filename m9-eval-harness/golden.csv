@@ -1,0 +1,31 @@
+id,question,reference,tag,expected_tools
+g01,How many books are in the sci-fi genre?,8 books.,count,count_by
+g02,How many books are in the history genre?,6 books.,count,count_by
+g03,How many books are in the business genre?,6 books.,count,count_by
+g04,How many books are in the fiction genre?,5 books.,count,count_by
+g05,How many books are in the self-help genre?,5 books.,count,count_by
+g06,How many books did Priya recommend?,7 books.,count,count_by|recs_by_person
+g07,How many books did Marcus recommend?,6 books.,count,count_by|recs_by_person
+g08,How many books did Dana recommend?,6 books.,count,count_by|recs_by_person
+g09,How many books did Lee recommend?,6 books.,count,count_by|recs_by_person
+g10,How many books did Sam recommend?,5 books.,count,count_by|recs_by_person
+g11,Which books did Priya recommend?,Dune; Hyperion; SPQR; Zero to One; Beloved; Atomic Habits; Man's Search for Meaning,list,recs_by_person
+g12,Which books did Marcus recommend?,Neuromancer; The Three-Body Problem; Sapiens; Good to Great; The Remains of the Day; Deep Work,list,recs_by_person
+g13,Which books did Dana recommend?,The Left Hand of Darkness; Ender's Game; The Rise and Fall of the Third Reich; The Hard Thing About Hard Things; Pachinko; Mindset,list,recs_by_person
+g14,Which books did Lee recommend?,"Snow Crash; Guns, Germs, and Steel; A People's History of the United States; High Output Management; The Road; The Power of Habit",list,recs_by_person
+g15,Which books did Sam recommend?,Foundation; The Guns of August; The Lean Startup; Crossing the Chasm; Middlemarch,list,recs_by_person
+g16,List the books in the sci-fi genre.,Dune; Neuromancer; The Left Hand of Darkness; Snow Crash; Foundation; Hyperion; The Three-Body Problem; Ender's Game,list,books_by_genre
+g17,List the books in the history genre.,"Guns, Germs, and Steel; The Guns of August; SPQR; Sapiens; The Rise and Fall of the Third Reich; A People's History of the United States",list,books_by_genre
+g18,List the books in the business genre.,The Lean Startup; Zero to One; Good to Great; The Hard Thing About Hard Things; High Output Management; Crossing the Chasm,list,books_by_genre
+g19,List the books in the fiction genre.,Beloved; The Remains of the Day; Pachinko; The Road; Middlemarch,list,books_by_genre
+g20,List the books in the self-help genre.,Atomic Habits; Deep Work; Mindset; The Power of Habit; Man's Search for Meaning,list,books_by_genre
+g21,Who wrote Dune?,Frank Herbert,lookup,books_by_genre
+g22,"Who wrote Guns, Germs, and Steel?",Jared Diamond,lookup,books_by_genre
+g23,Who wrote The Lean Startup?,Eric Ries,lookup,books_by_genre
+g24,Who wrote Beloved?,Toni Morrison,lookup,books_by_genre
+g25,Who wrote Atomic Habits?,James Clear,lookup,books_by_genre
+g26,How many books are in the corpus in total?,30 books.,aggregate,count_by
+g27,Which genre has the most books?,sci-fi,aggregate,count_by
+g28,Which person recommended the most books?,Priya,aggregate,count_by
+g29,How many different genres are there?,5 genres.,aggregate,list_genres|count_by
+g30,How many different people made recommendations?,5 people.,aggregate,count_by
