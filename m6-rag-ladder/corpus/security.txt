@@ -1,0 +1,1 @@
+All laptops use full-disk encryption. Passwords must be at least 14 characters long. Report a lost device within 2 hours of noticing it is missing.

@@ -13,6 +13,7 @@ results*.json
 seed_prompt*.txt
 runs/
 runs.sqlite*
+agentkit/var/
 m9-eval-harness/FAILURES.md
 
 # agent docs stay local
